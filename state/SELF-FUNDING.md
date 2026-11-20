@@ -4,7 +4,7 @@ Record verified figures at each reporting period. Do not fill unknown fields wit
 
 | Item | Current value |
 |---|---|
-| Reporting period | 2026-11-20 kickoff and Mission 001-R review |
+| Reporting period | 2026-11-20 kickoff and Missions 001-R and 002-R review |
 | Realised customer receipts | £0 |
 | Refunds, fees and operating costs | £0 |
 | Realised net cash profit before tax | £0 |
