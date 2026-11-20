@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Synthetic layout repair demonstration</title>
+<style>
+  body { margin: 0 auto; max-width: 64rem; padding: 1rem; font: 1rem/1.5 system-ui; }
+  section, footer { padding-block: 1.5rem; }
+  h1, h2, p { margin: 0 0 .5rem; }
+  .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+  .cards p { padding: 1rem; background: #e9eff4; }
+  .intro p { max-width: 55ch; }
+  footer { border-top: 1px solid #9eabb7; }
+  @media (max-width: 40rem) {
+    .cards { grid-template-columns: 1fr; }
+  }
+</style>
+<main>
+  <h1>Synthetic layout repair</h1>
+  <section>
+    <h2>Services</h2>
+    <div class="cards"><p>Service A</p><p>Service B</p><p>Service C</p></div>
+  </section>
+  <section class="intro">
+    <h2>About</h2>
+    <p>This placeholder introduction stays readable on desktop and fits the available width on smaller screens.</p>
+  </section>
+</main>
+<footer>Example footer</footer>
