@@ -1,0 +1,10 @@
+{
+  "currency": "GBP",
+  "incremental_cash_budget": 0,
+  "opening_cash": 0,
+  "transactions": [],
+  "pending_receipts": [],
+  "commitments": [],
+  "estimated_allocated_costs": [],
+  "notes": "Only verified cash transactions belong in transactions. Use ISO dates, unique IDs, type (customer_receipt/refund/marketplace_fee/expense/owner_funding), amount_gbp as a non-negative number, description, reference and verification status. Pending amounts and estimated costs are separate. Owner funding is not revenue. Pre-tax cash profit = customer receipts minus refunds, fees and expenses. Check for double-counted fees when a platform pays out net amounts. Keep supporting evidence redacted."
+}
